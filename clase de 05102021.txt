@@ -1,3 +1,5 @@
+//COMENTARIO DESDE GIT HUB POR ELISEO REYES
+
 printf("Numero: ");
 	scanf_s("%d", &num);
 
