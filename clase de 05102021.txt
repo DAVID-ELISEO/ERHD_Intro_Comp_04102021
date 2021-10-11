@@ -1,0 +1,25 @@
+printf("Numero: ");
+	scanf_s("%d", &num);
+
+	if (num == 0)
+	{
+		printf("El numero es cero\n");
+	}
+	else
+	{
+		if (num > 0)
+		{
+
+			printf("%i es positivo\n", num);
+		}
+		else {
+			printf("%i es negativo\n", num);
+		}
+	}
+
+
+
+
+#include <Windows.h>
+#include <WinUser.h>
+MessageBox(NULL, L"Es cero", L"Tipo de numero", MB_OK);
